@@ -1,4 +1,3 @@
-// components/FlashcardButton.tsx
 import React from "react";
 
 interface FlashcardButtonProps {

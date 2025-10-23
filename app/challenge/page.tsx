@@ -1,13 +1,10 @@
 'use client'
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState, useEffect, useRef } from "react";
-import Countdown from "../components/countdown";
-import FlashcardButton from "../components/flashcardbutton";
-import { ChevronLeft, ChevronRight, LogOut, Pause } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import ChoiceList from "../components/choicelist";
-import StatsBar from "./statsbar";
 import ControlButtons from "./controlbuttons";
+import StatsBar from "./statsbar";
 import Timer from "./timer";
 
 interface CardStatus {
