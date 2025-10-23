@@ -1,0 +1,197 @@
+# ===========================
+# 🌐 Next.js / React Project
+# ===========================
+
+# Build output
+/.next/
+out/
+build/
+dist/
+.next/cache/
+
+# Static exports
+/export/
+
+# =================================
+# 🧩 Node & Package Manager Folders
+# =================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnp.*
+.pnp/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+package-lock.json
+
+# =================================
+# 🧪 Testing & Coverage
+# =================================
+
+coverage/
+.nyc_output/
+jest-stare/
+test-results/
+playwright-report/
+test-report.xml
+
+# =================================
+# ⚙️ Environment & Configuration
+# =================================
+
+.env
+.env.*
+!.env.example
+.vercel
+.vercel_build_output/
+.next.config.js.backup*
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# =================================
+# 🧰 Build & Tool Cache
+# =================================
+
+.cache/
+.turbo/
+.eslintcache
+.stylelintcache
+.prettier-cache/
+.vscode-test/
+
+# =================================
+# 🧱 IDE / Editor Files
+# =================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# =================================
+# 🧠 OS / System Files
+# =================================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+
+# =================================
+# 🔒 Keys / Certificates / Secrets
+# =================================
+
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.p12
+*.pfx
+*.cert
+
+# =================================
+# 🧩 Framework & Tool Specific
+# =================================
+
+# Prisma
+/prisma/*.db
+/prisma/migrations/dev.db-journal
+*.sqlite
+*.sqlite-journal
+
+# TurboRepo
+.turbo/
+
+# ESLint, Prettier, etc.
+.eslintcache
+.prettierignore
+.prettiercache
+
+# ==========================
+# 🐋 Docker (optional)
+# ==========================
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+.docker/
+
+# ==========================
+# 🧩 Logs & Temp Dumps
+# ==========================
+*.log
+*.pid
+*.seed
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.bak
+*.tmp
+*.temp
+
+# ==========================
+# ⚗️ Analytics / Data
+# ==========================
+*.csv
+*.tsv
+*.dat
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================
+# 🧩 Local Scripts / Notes
+# ==========================
+*.local.js
+*.local.ts
+scripts/local/*
+notes/
+TODO.md
+*.test-env
+
+# ==========================
+# 🧩 OS Backup Files
+# ==========================
+*~
+*.bak
+*.orig
+*.rej
+
+# ==========================
+# 🧩 Visual Studio
+# ==========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================
+# 🧩 JetBrains IDEs
+# ==========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ==========================
+# 🧩 VS Code Workspace Backup
+# ==========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
